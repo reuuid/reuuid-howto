@@ -14,7 +14,7 @@ Response:
 
     029e05cf-fbf8-4fcb-819b-247b4f26426f
     
-    
+---
 
 #### To Get Five
 URL:
@@ -31,7 +31,7 @@ Response:
 
 If there is an error, the Null Uuid will be returned. If there are not enough Uuids, less than the requested amount will be returned; please conserve them. Note that you cannont get more than 100 Uuids at a time.
 
-
+---
 
 ### To Give Some
 URL:
