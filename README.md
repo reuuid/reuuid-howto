@@ -1,2 +1,2 @@
-# reuuid-examples
-ReUuid Snippets for many languages
+# ReUuid Examples
+Find out how to use ReUuid from your langauge of choice.
