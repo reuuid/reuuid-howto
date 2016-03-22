@@ -1,10 +1,10 @@
 <?php
     // To Get One
-    $uuid = file_get_contents('http://localhost:8080/get/');
+    $uuid = file_get_contents('http://reuuid.org/get/');
     print($uuid . "\n");
 
     // To Get Five
-    $uuids = file_get_contents('http://localhost:8080/get/5');
+    $uuids = file_get_contents('http://reuuid.org/get/5');
     print($uuids . "\n");
 
     // To Give Some
@@ -16,7 +16,7 @@
 
         // Create a stream context and send it
         $ctx = stream_context_create($httpReq);
-        $f = @fopen('http://localhost:8080/give/', 'r', false, $ctx);
+        $f = @fopen('http://reuuid.org/give/', 'r', false, $ctx);
         if (!$f)
             throw new Exception('Couldn\'t send the Uuids.');
     }
