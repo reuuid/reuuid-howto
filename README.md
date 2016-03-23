@@ -1,5 +1,5 @@
-# ReUuid How-To
-Find out how to use ReUuid from your langauge of choice.
+# ReUUID How-To
+Find out how to use ReUUID from your langauge of choice.
 
 ---
 
@@ -29,7 +29,7 @@ Response:
     b63f76ac-3d7c-43fd-b966-38ce938a126e
     03e65fe3-21d2-4ef4-bbf1-f14bb42f06e3
 
-If there is an error, the Null Uuid will be returned. If there are not enough Uuids, less than the requested amount will be returned; please conserve them. Note that you cannont get more than 100 Uuids at a time.
+If there is an error, the Null UUID will be returned. If there are not enough UUIDs, less than the requested amount will be returned; please conserve them. Note that you cannont get more than 100 UUIDs at a time.
 
 ---
 
