@@ -18,7 +18,7 @@
         $ctx = stream_context_create($httpReq);
         $f = @fopen('http://reuuid.org/give/', 'r', false, $ctx);
         if (!$f)
-            throw new Exception('Couldn\'t send the Uuids.');
+            throw new Exception('Couldn\'t send the UUIDs.');
     }
     
     donate(array(
